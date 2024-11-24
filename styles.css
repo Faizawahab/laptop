@@ -58,6 +58,7 @@ nav{
 #navlinks{
     display: flex;
     column-gap: 20px;
+    justify-content: space-evenly;
 }
 #navlinks a {
     text-decoration: none;
@@ -172,5 +173,10 @@ nav{
 }
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+<form>
+  <input type="search" placeholder="Search...">
+  <button type="submit">Search</button>
+</form>
+
